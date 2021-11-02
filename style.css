@@ -3,12 +3,13 @@
 
 body{
     margin:0px;
-    
+    background:rgb(5, 2, 8)
+  
 }
 .topnav {
  
    
-    background-color: rgb(22, 3, 3);
+    background-color: rgb(19, 43, 21);
     overflow: hidden;
   }
 
@@ -24,12 +25,35 @@ body{
   }
   
   .topnav a:hover {
-    background-color: rgb(18, 58, 236);
+    background-color: rgb(40, 66, 68);
+     
     
   }
 
   .topnav a.active {
      
-    background-color: #f31f1f;
+    background-color: #1a6a6d;
     color: white;
+   
+  }
+
+  img{
+    width: 200px;
+    height:200px;
+    border-radius: 50% ;
+    /* margin:200px;
+    margin-left: 1100px; */
+    float:right;
+    border: 3px solid white;
+ 
+  }
+  .container{
+   margin:200px;
+  
+  }
+  .text{
+    float: left;
+    font-size: 30px;
+    font-family: 'Andika New Basic', sans-serif;
+    color:yellow;
   }
