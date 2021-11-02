@@ -1,12 +1,17 @@
-/* Add a black background color to the top navigation */
+
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Architects+Daughter&family=Rampart+One&family=Zen+Kurenaido&display=swap');
+
+body{
+    margin:0px;
+    
+}
 .topnav {
  
-    border-radius: 5px;
+   
     background-color: rgb(22, 3, 3);
     overflow: hidden;
   }
-  
-  /* Style the links inside the navigation bar */
+
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -14,6 +19,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Andika New Basic', sans-serif;
+
   }
   
   /* Change the color of links on hover */
