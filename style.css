@@ -41,8 +41,6 @@ body{
     width: 200px;
     height:200px;
     border-radius: 50% ;
-    /* margin:200px;
-    margin-left: 1100px; */
     float:right;
     border: 3px solid white;
  
@@ -57,3 +55,44 @@ body{
     font-family: 'Andika New Basic', sans-serif;
     color:yellow;
   }
+
+  
+.fa {
+  margin : 10px;
+  border-radius: 25%;
+  padding: 10px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-github{
+  background: white;
+}
+
+.fa-instagram{
+  background: white;
+}
+.social{
+  
+
+  margin:200px;
+ 
+ }
