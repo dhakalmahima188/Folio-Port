@@ -27,6 +27,7 @@ body {
 
 .topnav a:hover {
   background-color: rgb(40, 66, 68);
+  font-size: 22px;
 }
 
 .topnav a.active {
@@ -73,11 +74,12 @@ body {
 }
 
 .fa-instagram {
-  background: white;
+  background: rgb(248, 189, 189);
 }
 .social {
   display: flex;
   justify-content: center;
+  margin-top: 550px;
 }
 
 .copyright {
@@ -89,10 +91,19 @@ body {
   color: honeydew;
   font-family: "Andika New Basic", sans-serif;
 }
-
-.phone {
-  color: white;
+.footer{
+  background-color: rgb(68, 66, 66);
+  height:500px;
 }
+.phone {
+  margin-top:100px;
+  float: left;
+  color: rgb(34, 211, 224);
+  font-family: "Merienda", cursive;
+  cursor: pointer;
+}
+
+
 
 .home-text p span {
   display: inline-block;
