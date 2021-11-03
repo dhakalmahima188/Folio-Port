@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Architects+Daughter&family=Rampart+One&family=Zen+Kurenaido&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
 body {
   margin: 0px;
   background: rgb(5, 2, 8);
   /* background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   
 } */
-position:fixed;
-width: 100%;
-height: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 .topnav {
   background-color: rgb(19, 43, 21);
@@ -35,14 +35,13 @@ height: 100%;
 }
 
 .container {
- float: center;
+  float: center;
   margin: 200px;
-
 }
 .text {
   float: left;
   font-size: 40px;
-  font-family: 'Merienda', cursive;
+  font-family: "Merienda", cursive;
   color: rgb(91, 18, 224);
 }
 
@@ -79,23 +78,6 @@ height: 100%;
 .social {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-}
-.box {
-  display: flex;
-  justify-content: right;
-  background-color: rgb(34, 15, 15);
-  box-shadow: 10px 5px 5px rgb(221, 221, 235);
-  height: 500px;
-}
-#image {
-  border-radius: 50%;
-}
-
-.footer {
-  margin-top: 10px;
-  background-color: rgb(73, 71, 71);
-  height: 500px;
 }
 
 .copyright {
@@ -108,37 +90,36 @@ height: 100%;
   font-family: "Andika New Basic", sans-serif;
 }
 
-
-
-.home-text p span{
-  
-    display: inline-block;
-    line-height: 46px;
-    display: none;
+.phone {
+  color: white;
 }
 
-.home-text p span.text-in{
-	display: block;
-	animation: textIn .5s ease;
-}
-.home-text p span.text-out{
-	animation: textOut .5s ease;
-}
-@keyframes textIn{
-	0%{
-		transform: translateY(100%);
-	}
-	100%{
-		transform: translateY(0%);
-	}
-}
-@keyframes textOut{
-	0%{
-		transform: translateY(0%);
-	}
-	100%{
-		transform: translateY(-100%);
-
-	}
+.home-text p span {
+  display: inline-block;
+  line-height: 46px;
+  display: none;
 }
 
+.home-text p span.text-in {
+  display: block;
+  animation: textIn 0.5s ease;
+}
+.home-text p span.text-out {
+  animation: textOut 0.5s ease;
+}
+@keyframes textIn {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes textOut {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
