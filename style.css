@@ -227,6 +227,15 @@ h1{
   color:aquamarine
 }
 
+.other{
+
+padding:40px;
+  display:flex;
+  justify-content:center;
+  font-size:30px;
+
+  font-family:"Andika New Basic", sans-serif;
   
+}
 
       
