@@ -178,6 +178,13 @@ html {
   padding: 20px;
 
 }
+.pcard {
+  border: 2px solid rgb(150, 122, 201);
+  box-shadow: 4px 4px 5px 0 rgba(179, 31, 238, 0.74);
+  margin:0 8px;
+  padding: 20px;
+
+}
 
 .about-section {
   font-family:"Andika New Basic", sans-serif;
