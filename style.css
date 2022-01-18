@@ -231,3 +231,21 @@ h1{
   font-size: 50px;
   color:aquamarine
 }
+
+  
+
+      
+ .image img {
+   
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+ .image  img:hover {
+  width: 250px;
+  height: 250px;
+    
+  }
