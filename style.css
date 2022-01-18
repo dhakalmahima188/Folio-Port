@@ -185,6 +185,10 @@ html {
   padding: 20px;
 
 }
+.pcard:hover{
+  transform: scale(1.20);
+
+}
 
 .about-section {
   font-family:"Andika New Basic", sans-serif;
