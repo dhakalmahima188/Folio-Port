@@ -8,8 +8,12 @@ body {
   width: 100%;
   height: 100%;
 }
-html { overflow-y: scroll; }
-body { position: absolute; }
+html {
+  overflow-y: scroll;
+}
+body {
+  position: absolute;
+}
 .topnav {
   background-color: rgb(19, 43, 21);
   overflow: hidden;
@@ -27,7 +31,6 @@ body { position: absolute; }
 
 .topnav a:hover {
   background-color: rgb(40, 66, 68);
- 
 }
 
 .topnav a.active {
@@ -43,7 +46,6 @@ body { position: absolute; }
   margin-left: 20px;
 }
 .text {
- 
   display: flex;
   font-size: 50px;
   font-family: "Merienda", cursive;
@@ -138,11 +140,6 @@ body { position: absolute; }
   }
 }
 
-
-
-
-
-  
 /* img{
   margin-top: 50px;
   border-radius: 50%;
@@ -158,7 +155,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -166,87 +165,76 @@ html {
   float: left;
   width: 25%;
   margin-bottom: 16px;
-  margin-left:85px;
+  margin-left: 85px;
   padding: 0 8px;
- 
 }
 
 .card {
+  /* display: flex; */
+
   border: 1px solid rgb(151, 113, 113);
   box-shadow: 4px 4px 5px 0 rgb(80, 51, 51);
-  margin:0 8px;
+  margin: 0 8px;
   padding: 20px;
-
 }
 .pcard {
   border: 2px solid rgb(150, 122, 201);
   box-shadow: 4px 4px 5px 0 rgba(179, 31, 238, 0.74);
-  margin:0 8px;
+  margin: 0 8px;
   padding: 20px;
-
 }
-.pcard:hover{
-  transform: scale(1.20);
-
+.pcard:hover {
+  transform: scale(1.2);
 }
 
 .about-section {
-  font-family:"Andika New Basic", sans-serif;
+  font-family: "Andika New Basic", sans-serif;
   padding: 40px;
   text-align: center;
   background-color: #474e5d;
   color: rgb(255, 255, 255);
 }
 
-
-
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
-
 }
 
 .title {
   color: rgb(196, 131, 131);
 }
 
-
-
-
-h2{
-  font-family:"Andika New Basic", sans-serif;
+h2 {
+  font-family: "Andika New Basic", sans-serif;
   font-size: 20px;
-  color:whitesmoke
-
+  color: whitesmoke;
 }
-.card p{
-  font-family:"Andika New Basic", sans-serif;
+.card p {
+  font-family: "Andika New Basic", sans-serif;
   font-size: 15px;
-  color:whitesmoke
+  color: whitesmoke;
 }
 
 img {
- 
-  width:  300px;
-  height: 200px;
 
-}
-h1{ 
-  font-family:"Andika New Basic", sans-serif;
-  font-size: 50px;
-  color:aquamarine
-}
-
-.other{
-
-padding:40px;
-  display:flex;
-  justify-content:center;
-  font-size:30px;
-
-  font-family:"Andika New Basic", sans-serif;
   
+
+  width: 275px;
+  height: 200px;
+}
+h1 {
+  font-family: "Andika New Basic", sans-serif;
+  font-size: 50px;
+  color: aquamarine;
 }
 
-      
+.other {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
+  font-family: "Andika New Basic", sans-serif;
+}
