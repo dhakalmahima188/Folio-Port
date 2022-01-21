@@ -15,27 +15,33 @@ body {
   position: absolute;
 }
 .topnav {
-  background-color: rgb(19, 43, 21);
+  
+  background-color:black;
+   opacity:0.5;
+ 
   overflow: hidden;
+  /* box-shadow: 3px 10px 5px #c9c0c0; */
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+ 
+  float: right;
+  color: #f03333;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
   font-family: "Andika New Basic", sans-serif;
 }
 
 .topnav a:hover {
-  background-color: rgb(40, 66, 68);
+  /* background-color: rgb(40, 66, 68); */
+  text-decoration: underline;
 }
 
 .topnav a.active {
-  background-color: #1a6a6d;
-  color: white;
+  /* background-color: #1a6a6d; */
+  color: rgb(178, 141, 238);
 }
 
 .container {
@@ -49,7 +55,7 @@ body {
   display: flex;
   font-size: 50px;
   font-family: "Merienda", cursive;
-  color: rgb(0, 255, 34);
+  color: rgb(208, 228, 231);
   overflow: hidden;
 }
 
@@ -218,9 +224,6 @@ h2 {
 }
 
 img {
-
-  
-
   width: 275px;
   height: 200px;
 }
