@@ -17,12 +17,12 @@
 
   <div class="topnav">
 
-   
- 
-    <a href="contacts.html"  style='margin-right: 250px;'>Contact</a>
+
+
+    <a href="contacts.html" style='margin-right: 250px;'>Contact</a>
     <a href="project.html">Project</a>
-    <a href="about.html">About</a>
-    <a class="active" href="index.html">Home</a>
+    <a class="active" href="about.html">About</a>
+    <a  href="index.html">Home</a>
   </div>
 
 
@@ -113,7 +113,7 @@
   </div>
 
   <h1 style="text-align:center">Hobbies</h1>
-  <div class="row">
+  <!-- <div class="row">
     <div class="column">
       <div class="card">
         <img src="images/sing.jpg" alt="1">
@@ -187,7 +187,7 @@
         <h5 class="title">Suddhodhan Teej Song Competition,2077</h5>
 
       </div>
-
+ -->
 
 
 
@@ -195,10 +195,89 @@
     </div>
   </div>
 
+ 
+  </head>
+
+  <body>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade card">
+        
+        <img src="images/sing.jpg" style="width:100%">
+        <h2>Singing</h2>
+        <h5 class="title">Freshers,2078</h5>
+        </div>
+
+        <div class="mySlides fade card">
+         
+          <img src="images/flogo.jpg" style="width:100%">
+          <h2>Designning</h2>
+          <h5 class="title">It-club,Logo Competition</h5>
+        </div>
+
+        <div class="mySlides fade card">
+          <
+          <img src="images/poem2.jpg" style="width:100%">
+          <h2>Poetry</h2>
+          <h5 class="title">Miss-Freshers,Audition round,2077</h5>
+
+        </div>
+
+        <div class="mySlides fade card">
+        
+          <img src="images/cf.jpg" style="width:100%">
+          <h2>Cricket</h2>
+          <h5 class="title">Ballpark,Gwarko</h5>
+        </div>
+
+      
+
+        <div class="mySlides fade card">
+          
+          <img src="images/dance2.jpg" style="width:100%">
+          <h2>Dancing</h2>
+          <h5 class="title">Suddhodhan Teej Song Competition,2077</h5>
+        </div>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        
+      </div>
+    </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) { slideIndex = 1 }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
 
 
 
 
-</body>
+  </body>
 
 </html>
